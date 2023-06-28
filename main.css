@@ -1,6 +1,7 @@
 .sidebar {
 height: 100%;
 width: 25%;
+padding-top: 2%;
 position: fixed;
 z-index: 1;
 top: 0;
@@ -8,10 +9,35 @@ left: 0;
 background-color: black;
 text-align: center;
 overflow-x: hidden;
-padding-top: 20%;
-color:aqua;
+border-style: double;
+border-color: white;
+}
+
+.sidebar-text{
+padding-top: 10%;
+color:skyblue;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size:120%;
 }
 
-    
+.image_side{
+border-radius: 50%;
+border-color: white;
+border-style: double;
+
+}
+.icon-bar{
+    padding-top: 5%;
+}
+
+.icon-bar a{
+ display: inline-block;
+ text-align: center;
+ padding: 2%;
+ transition: all 0.3s ease;
+ color: white;
+}
+
+.body{
+    background-color:darkgray;
+}
